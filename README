@@ -1,1 +1,6 @@
-placeholder
+This is where all the code for the ironfeedback project resides.
+
+The project, so far, contains:
+ - a URL to accept JSON POST requests that happen at WP form submission time. It then processes and adds a customer to a SMS time based queue.
+ - a helper function to use Nexmo API to send SMS to customers
+ - a command to process the queue and send SMS to customers once scheduled time has passed.
