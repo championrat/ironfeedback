@@ -1,0 +1,4 @@
+Django
+django-q
+mysqlclient #not used in local, enable during staging and prod
+requests
